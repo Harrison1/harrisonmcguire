@@ -6,6 +6,9 @@
   "repository": "https://github.com/Harrison1/harrisonmcguire",
   "author": "Harrison McGuire",
   "license": "MIT",
+  "scripts": {
+    "dev": "next"
+  },
   "dependencies": {
     "next": "^4.2.1",
     "react": "^16.2.0",
