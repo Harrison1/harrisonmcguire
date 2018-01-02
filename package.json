@@ -1,0 +1,14 @@
+{
+  "name": "harrisonmcguire",
+  "version": "1.0.0",
+  "description": "personal website",
+  "main": "index.js",
+  "repository": "https://github.com/Harrison1/harrisonmcguire",
+  "author": "Harrison McGuire",
+  "license": "MIT",
+  "dependencies": {
+    "next": "^4.2.1",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0"
+  }
+}
