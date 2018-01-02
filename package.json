@@ -7,11 +7,14 @@
   "author": "Harrison McGuire",
   "license": "MIT",
   "scripts": {
-    "dev": "next"
+    "dev": "next",
+    "build": "next build",
+    "export": "next export"
   },
   "dependencies": {
     "next": "^4.2.1",
     "react": "^16.2.0",
-    "react-dom": "^16.2.0"
+    "react-dom": "^16.2.0",
+    "styled-components": "^2.4.0"
   }
 }
