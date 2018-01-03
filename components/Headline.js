@@ -1,4 +1,4 @@
-const Headline = ({ name, tagline }) => (
+const Headline = ({ name, tagline }) =>
     <div>
         <h1>{ name }</h1>
         <h2>{ tagline }</h2>
@@ -6,11 +6,13 @@ const Headline = ({ name, tagline }) => (
         div {
             align-content: center;
             align-items: center;
-            background: #1b3740;
+            background: rgba(46, 79, 249, 0.65);;
             display: flex;
             height: 50vh
-            justify-content: center;
             flex-wrap: wrap;
+            justify-content: center;
+            position: relative;
+            z-index: 10;
         }
 
         h1 {
@@ -30,6 +32,5 @@ const Headline = ({ name, tagline }) => (
         }
         `}</style>
     </div>
-)
 
 export default Headline
