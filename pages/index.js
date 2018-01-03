@@ -1,7 +1,8 @@
-import Layout from '../components/Layout.js'
+import Main from '../layouts/Main'
+import App from '../components/App'
 
 export default () => (
-    <Layout>
-       <p>Hello Next.js</p>
-    </Layout>
+    <Main>
+        <App />
+    </Main>
 )
