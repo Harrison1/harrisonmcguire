@@ -1,12 +1,12 @@
 import Headline from './Headline'
 import ShowcaseVideo from './ShowcaseVideo'
-import IntroText from './IntroText'
+import Intro from './Intro'
 
 const App = () =>
     <div>
         <ShowcaseVideo />
         <Headline name="Harrison McGuire" tagline="Web Developer and Game Developer" />
-        <IntroText />
+        <Intro />
     </div>
 
 export default App

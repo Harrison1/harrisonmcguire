@@ -6,7 +6,7 @@ const Headline = ({ name, tagline }) =>
         div {
             align-content: center;
             align-items: center;
-            background: rgba(46, 79, 249, 0.65);;
+            background: rgba(1, 186, 212, 0.7);
             display: flex;
             height: 50vh
             flex-wrap: wrap;

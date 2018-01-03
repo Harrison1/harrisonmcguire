@@ -4,6 +4,7 @@ const Meta = () =>
     <div>
         <Head>
             <title>Harrison McGuire</title>
+            <meta name="description" content="Hi, I'm Harrison McGuire and this is my personal website. I love web development and game development" />
             <meta name="viewport" content="width=device-width, initial-scale=1" />
             <meta charSet="utf-8" />
             <link rel="apple-touch-icon" sizes="180x180" href='static/favicons/apple-touch-icon.png' />
