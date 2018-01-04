@@ -77,15 +77,6 @@ const Portfolio = () =>
 
         </div>
 
-
-
-
-        {/* https://harrison1.github.io/code-foo-2015/ */}
-
-        {/* http://franchiselending.org/ */}
-        {/* https://play.google.com/store/apps/details?id=com.harrisonmcguire.segify */}
-        {/* https://play.google.com/store/apps/details?id=com.versatileproductions.hm */}
-        {/* https://play.google.com/store/books/details/Harrison_McGuire_Miami_and_Me?id=aviBBwAAQBAJ */}
         <style jsx>{`
             .portfolio {
                 background-color: #00bcd4;
