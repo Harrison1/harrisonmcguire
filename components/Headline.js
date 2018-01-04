@@ -8,7 +8,7 @@ const Headline = ({ name, tagline }) =>
             align-items: center;
             background: rgba(1, 186, 212, 0.7);
             display: flex;
-            height: 50vh
+            height: 75vh
             flex-wrap: wrap;
             justify-content: center;
             position: relative;

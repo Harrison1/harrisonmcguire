@@ -1,7 +1,7 @@
 const ShowcaseVideo = () =>
     <div className="tv">
         <video preload="auto" className="showcase-video" autoPlay loop muted>
-            <source src='http://res.cloudinary.com/dz09rnbhe/video/upload/v1514902841/ocean_qp27ct.mp4' type="video/mp4" />
+            <source src="https://res.cloudinary.com/dz09rnbhe/video/upload/v1515031992/aerial_mjx8gn.mp4" type="video/mp4" />
         </video>
         <style jsx>{`
             .tv {
@@ -10,7 +10,7 @@ const ShowcaseVideo = () =>
                 left: 0;
                 z-index: 1;
                 width: 100%;
-                height: 50%;
+                height: 75vh;
                 overflow: hidden;
             }
           
