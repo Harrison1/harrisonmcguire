@@ -7,26 +7,31 @@ const calculateAge = (birthday) => {
 }
 
 const Intro = () => 
-    <div className="wrapper">
+    <div className="intro">
+        <div className="wrapper">
 
-        <div className="one">
-            <img src="https://res.cloudinary.com/dz09rnbhe/image/upload/v1514982221/harrison-mcguire_uvgv5x.jpg" />
-            <h3>Hello Galaxy</h3>
-            <p>Hi, I'm Harrison McGuire and I am a web and game developer. My mission is to enrich the user experience with attention to detail and beautiful design. I excel in making modern, performant apps. I dedicate most of my time to JavaScript and Unreal Engine 4.</p>
+            <div className="one">
+                <img src="https://res.cloudinary.com/dz09rnbhe/image/upload/v1515075026/harrison-mcguire_qq3ixp.jpg" />
+                <h3>Hello Galaxy</h3>
+                <p>Hi, I'm Harrison McGuire and I am a web and game developer. My mission is to enrich the user experience with attention to detail and beautiful design. I excel in making modern, performant apps. I dedicate most of my time to JavaScript and Unreal Engine 4.</p>
+            </div>
+
+            <img src="https://res.cloudinary.com/dz09rnbhe/image/upload/v1515064571/harrison-mcguire_qjwj6l.jpg" className="two" />
+
+            <div className="three">
+                <img src="https://res.cloudinary.com/dz09rnbhe/image/upload/v1515075026/harrison-mcguire-profile_i3jrxr.jpg" />
+                <h3>Personal Info</h3>
+                <p>Name: Harrison McGuire</p>
+                <p>Age: {calculateAge(birthday)}</p>
+                <p>Email: <a href="mailto:harrison@severallevels.io">harrison@severallevels.io</a></p>
+                <p>Location: South Florida</p>
+            </div>
+
         </div>
-
-        <img src="https://res.cloudinary.com/dz09rnbhe/image/upload/v1515064571/harrison-mcguire_qjwj6l.jpg" className="two" />
-
-        <div className="three">
-            <img src="https://res.cloudinary.com/dz09rnbhe/image/upload/v1515064774/harrisonmcguire_vbk0jk.png" />
-            <h3>Personal Info</h3>
-            <p>Name: Harrison McGuire</p>
-            <p>Age: {calculateAge(birthday)}</p>
-            <p>Email: <a href="mailto:harrison@severallevels.io">harrison@severallevels.io</a></p>
-            <p>Location: South Florida</p>
-        </div>
-
         <style jsx>{`
+            .intro {
+                padding: 1rem 0 5rem 0;
+            }
             .wrapper {
                 display: grid;
                 grid-template-rows: auto;
