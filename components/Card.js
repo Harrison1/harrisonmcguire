@@ -24,7 +24,7 @@ const Card = ({ link, title, description, background }) =>
                 font-size: 2.618em
             }
             .card {
-                border-radius: 16px;
+                border-radius: 5px;
                 margin: 0 auto;
                 width: 100%;
                 min-height: 400px;
@@ -34,6 +34,7 @@ const Card = ({ link, title, description, background }) =>
                 overflow: hidden;
                 background-image: url(${ background });
                 background-size: cover;
+                background-position: 50% 50%;
             }
             .info {
                 position: relative;
@@ -56,6 +57,7 @@ const Card = ({ link, title, description, background }) =>
                 background-image: url(${ background });
                 filter: blur(10px);
                 background-size: cover;
+                background-position: 50% 50%;
                 opacity: 0.25;
                 transform: translateY(-100%)
                     translateY(88px)
