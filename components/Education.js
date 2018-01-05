@@ -46,7 +46,7 @@ const Education = () =>
             }
             .one {
                 grid-area: one;
-                background-image: url(https://www.scu.edu/media/public/buildings-rooms-and-spaces/mission-gardens.jpg);
+                background-image: url(https://res.cloudinary.com/dz09rnbhe/image/upload/v1515156343/santa-clara-university_xssv6j.jpg);
                 background-position: 50% 50%;
                 background-repeat: no-repeat;
                 background-size: 180%;
@@ -59,7 +59,7 @@ const Education = () =>
             }
             .two {
                 grid-area: two;
-                background-image: url(https://welcome.miami.edu/_assets/images/student-life/SAC_new_cmyk-1240x550.jpg);
+                background-image: url(https://res.cloudinary.com/dz09rnbhe/image/upload/v1515156343/university-of-miami_xhzgcm.jpg);
                 background-position: 50% 50%;
                 background-repeat: no-repeat;
                 background-size: 180%;

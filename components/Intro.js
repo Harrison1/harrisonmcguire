@@ -21,10 +21,10 @@ const Intro = () =>
             <div className="three">
                 <img src="https://res.cloudinary.com/dz09rnbhe/image/upload/v1515075026/harrison-mcguire-profile_i3jrxr.jpg" />
                 <h3>Personal Info</h3>
-                <p>Name: Harrison McGuire</p>
-                <p>Age: {calculateAge(birthday)}</p>
-                <p>Email: <a href="mailto:harrison@severallevels.io">harrison@severallevels.io</a></p>
-                <p>Location: South Florida</p>
+                <p><span>Name:</span> Harrison McGuire</p>
+                <p><span>Age:</span> {calculateAge(birthday)}</p>
+                <p><span>Email:</span> <a href="mailto:harrison@severallevels.io">harrison@severallevels.io</a></p>
+                <p><span>Location:</span> South Florida</p>
             </div>
 
         </div>
@@ -46,6 +46,10 @@ const Intro = () =>
             }
             p {
                 font-size: 1.8rem;
+            }
+            span {
+                display: inline-block;
+                min-width: 8rem;
             }
             .one {
                 grid-area: one;
