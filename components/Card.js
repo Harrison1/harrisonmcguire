@@ -46,24 +46,6 @@ const Card = ({ link, title, description, background }) =>
                 translateZ(0);
                 transition: transform 0.3s ease-out;
             }
-            // .info:before {
-            //     z-index: -1;
-            //     display: block;
-            //     position: absolute;
-            //     content: ' ';
-            //     width: 100%;
-            //     height: 100%;
-            //     overflow: hidden;
-            //     background-image: url(${ background });
-            //     filter: blur(0px);
-            //     background-size: cover;
-            //     background-position: 50% 50%;
-            //     opacity: 0.25;
-            //     transform: translateY(-100%)
-            //         translateY(88px)
-            //         translateZ(0);
-            //     transition: transform 0.5s ease-out;
-            // }
             .card:hover .info,
             .card:hover .info:before {
                 transform: translateY(50%) translateZ(0);

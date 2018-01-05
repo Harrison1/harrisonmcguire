@@ -8,6 +8,7 @@ const Education = () =>
             <a href="https://www.scu.edu/">
                 <div className="one">
                     <div className="santa-clara">
+                        <img src="https://upload.wikimedia.org/wikipedia/en/8/82/SC_Broncos_logo.png" className="sc" />
                         <h3>Santa Clara University</h3>
                         <p>BS Finance | 2006 - 2010</p>
                     </div>
@@ -16,6 +17,7 @@ const Education = () =>
             <a href="https://welcome.miami.edu/">
                 <div className="two">
                     <div className="miami">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Miami_Hurricanes_logo.svg/2000px-Miami_Hurricanes_logo.svg.png" className="mi" />
                         <h3>University of Miami</h3>
                         <p>MBA | 2013 - 2015</p>
                     </div>
@@ -101,6 +103,15 @@ const Education = () =>
             }
             p {
                 font-size: 2rem;
+            }
+            img {
+                margin: auto;
+            }
+            .sc {
+                width: 150px;
+            }
+            .mi {
+                width: 100px;
             }
             @media (min-width: 800px) {
                 .wrapper {
