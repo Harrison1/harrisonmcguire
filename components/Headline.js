@@ -18,6 +18,7 @@ const Headline = ({ name, tagline }) =>
         h1 {
             color: white;
             font-size: 4rem;
+            line-height: 4rem;
             margin: 5px;
             text-align: center;
             width: 100%;
@@ -26,9 +27,16 @@ const Headline = ({ name, tagline }) =>
         h2 {
             color: white;
             font-size: 2rem;
+            font-weight: 500;
             margin: 5px;
             text-align: center;
             width: 100%;
+        }
+        @media (min-width: 800px) {
+            h1 {
+                font-size: 6rem;
+                line-height: 5rem;
+            }
         }
         `}</style>
     </div>
