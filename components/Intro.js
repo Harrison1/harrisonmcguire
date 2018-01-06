@@ -1,3 +1,5 @@
+import LazyLoad from 'react-lazyload'
+
 const birthday = new Date('June 30, 1987')
 
 const calculateAge = (birthday) => {
@@ -11,15 +13,21 @@ const Intro = () =>
         <div className="wrapper">
 
             <div className="one">
-                <img src="https://res.cloudinary.com/dz09rnbhe/image/upload/w_800/v1515075026/harrison-mcguire_qq3ixp.jpg" alt="Harrison McGuire"/>
+                <LazyLoad height={306} offset={300}>
+                    <img src="https://res.cloudinary.com/dz09rnbhe/image/upload/w_800/v1515075026/harrison-mcguire_qq3ixp.jpg" alt="Harrison McGuire"/>
+                </LazyLoad>
                 <h3>Hello Galaxy</h3>
                 <p>Hi, I'm Harrison McGuire and I am a web and game developer. My mission is to enrich the user experience with attention to detail and beautiful design. I excel in making modern, performant apps. I dedicate most of my time to JavaScript and Unreal Engine 4.</p>
             </div>
 
-            <img src="https://res.cloudinary.com/dz09rnbhe/image/upload/w_800/v1515064571/harrison-mcguire_qjwj6l.jpg" className="two" alt="Harrison McGuire"/>
+            <LazyLoad height={612} offset={300}>
+                <img src="https://res.cloudinary.com/dz09rnbhe/image/upload/w_800/v1515064571/harrison-mcguire_qjwj6l.jpg" className="two" alt="Harrison McGuire"/>
+            </LazyLoad>
 
             <div className="three">
-                <img src="https://res.cloudinary.com/dz09rnbhe/image/upload/v1515075026/harrison-mcguire-profile_i3jrxr.jpg" alt="Harrison McGuire"/>
+                <LazyLoad height={306} offset={300}>
+                    <img src="https://res.cloudinary.com/dz09rnbhe/image/upload/v1515075026/harrison-mcguire-profile_i3jrxr.jpg" alt="Harrison McGuire"/>
+                </LazyLoad>
                 <h3>Personal Info</h3>
                 <p><span>Name:</span> Harrison McGuire</p>
                 <p><span>Age:</span> {calculateAge(birthday)}</p>

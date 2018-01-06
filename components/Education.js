@@ -1,28 +1,33 @@
 import SectionTitleBlue from './SectionTitleBlue'
+import LazyLoad from 'react-lazyload'
 
 const Education = () =>
     <div className="education">
         <SectionTitleBlue title="Education" />
 
         <div className="wrapper">
-            <a href="https://www.scu.edu/">
-                <div className="one">
-                    <div className="santa-clara">
-                        <img src="https://res.cloudinary.com/dz09rnbhe/image/upload/v1515204067/sc-broncos-logo_nrxuvy.png" className="sc" />
-                        <h3>Santa Clara University</h3>
-                        <p>BS Finance | 2006 - 2010</p>
+            <LazyLoad height={400} offset={300}>
+                <a href="https://www.scu.edu/">
+                    <div className="one">
+                        <div className="santa-clara">
+                            <img src="https://res.cloudinary.com/dz09rnbhe/image/upload/v1515204067/sc-broncos-logo_nrxuvy.png" className="sc" />
+                            <h3>Santa Clara University</h3>
+                            <p>BS Finance | 2006 - 2010</p>
+                        </div>
                     </div>
-                </div>
-            </a>
-            <a href="https://welcome.miami.edu/">
-                <div className="two">
-                    <div className="miami">
-                        <img src="https://res.cloudinary.com/dz09rnbhe/image/upload/v1515204067/miami-hurricanse-logo_x6fdir.png" className="mi" />
-                        <h3>University of Miami</h3>
-                        <p>MBA | 2013 - 2015</p>
+                </a>
+            </LazyLoad>
+            <LazyLoad height={400} offset={300}>
+                <a href="https://welcome.miami.edu/">
+                    <div className="two">
+                        <div className="miami">
+                            <img src="https://res.cloudinary.com/dz09rnbhe/image/upload/v1515204067/miami-hurricanse-logo_x6fdir.png" className="mi" />
+                            <h3>University of Miami</h3>
+                            <p>MBA | 2013 - 2015</p>
+                        </div>
                     </div>
-                </div>
-            </a>
+                </a>
+            </LazyLoad>
         </div>
 
         <style jsx>{`
