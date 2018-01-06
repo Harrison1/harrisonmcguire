@@ -7,11 +7,11 @@ const Portfolio = () =>
         <div className="first">
 
             <div className="one">
-                <Card link="https://unrealcpp.com/" title="Unreal C++" description="GatsbyJS site dedicated to Unreal Engine 4 C++ tutorials." background="https://res.cloudinary.com/dz09rnbhe/image/upload/v1515063852/unrealcpp_j8skuw.png" />
+                <Card link="https://unrealcpp.com/" title="Unreal C++" description="GatsbyJS site dedicated to Unreal Engine 4 C++ tutorials." background="https://res.cloudinary.com/dz09rnbhe/image/upload/w_800/v1515063852/unrealcpp_j8skuw.png" />
             </div>
 
             <div className="two">
-                <Card link="https://severallevels.io/" title="Several Levels" description="Gatsby app using React" background="https://res.cloudinary.com/dz09rnbhe/image/upload/v1515063851/severallevels_uebkis.png" />
+                <Card link="https://severallevels.io/" title="Several Levels" description="Gatsby app using React" background="https://res.cloudinary.com/dz09rnbhe/image/upload/w_800/v1515063851/severallevels_uebkis.png" />
             </div>
 
         </div>
@@ -19,15 +19,15 @@ const Portfolio = () =>
         <div className="second">
 
             <div className="three">
-                <Card link="http://insider.directv.com/" title="DIRECTV" description="Custom WordPress theme for DIRECTV's blog" background="https://res.cloudinary.com/dz09rnbhe/image/upload/v1515063853/directv_nbrvkn.png" />
+                <Card link="http://insider.directv.com/" title="DIRECTV" description="Custom WordPress theme for DIRECTV's blog" background="https://res.cloudinary.com/dz09rnbhe/image/upload/w_800/v1515063853/directv_nbrvkn.png" />
             </div>
 
             <div className="four">
-                <Card  link="http://hfscompanies.com/" title="HFS" description="Angualar 1 single page app for Hartfield Financial Solutions" background="https://res.cloudinary.com/dz09rnbhe/image/upload/v1515063853/hfs_upkvbz.png" />
+                <Card  link="http://hfscompanies.com/" title="HFS" description="Angualar 1 single page app for Hartfield Financial Solutions" background="https://res.cloudinary.com/dz09rnbhe/image/upload/w_800/v1515063853/hfs_upkvbz.png" />
             </div>
 
             <div className="five">
-                <Card  link="https://lightdepgreenhouse.com/" title="Greenhouse" description="Custom Shopify solution" background="https://res.cloudinary.com/dz09rnbhe/image/upload/v1515063852/lightdep_folscd.png" />
+                <Card  link="https://lightdepgreenhouse.com/" title="Greenhouse" description="Custom Shopify solution" background="https://res.cloudinary.com/dz09rnbhe/image/upload/w_800/v1515063852/lightdep_folscd.png" />
             </div>
         
         </div>
@@ -36,12 +36,12 @@ const Portfolio = () =>
 
         
             <div className="six">
-                <Card link="http://franchiselending.org/" title="FLA" description="Franchise Lending of America. A static HTML site." background="https://res.cloudinary.com/dz09rnbhe/image/upload/v1515068465/franchise-lending_jo5ja1.png" />
+                <Card link="http://franchiselending.org/" title="FLA" description="Franchise Lending of America. A static HTML site." background="https://res.cloudinary.com/dz09rnbhe/image/upload/w_800/v1515068465/franchise-lending_jo5ja1.png" />
             </div>
 
             
             <div className="seven">
-                <Card link="https://harrison1.github.io/code-foo-2015/" title="Code Foo" description="Simple Bootstrap site made for an IGN Code Foo application. I interned at IGN for 6 weeks, it was a great experience." background="https://res.cloudinary.com/dz09rnbhe/image/upload/v1515068466/ign-code-foo_zgh5sr.png" />
+                <Card link="https://harrison1.github.io/code-foo-2015/" title="Code Foo" description="Simple Bootstrap site made for an IGN Code Foo application. I interned at IGN for 6 weeks, it was a great experience." background="https://res.cloudinary.com/dz09rnbhe/image/upload/w_800/v1515068466/ign-code-foo_zgh5sr.png" />
             </div>
 
         </div>
@@ -50,12 +50,12 @@ const Portfolio = () =>
         <div className="fourth">
         
             <div className="eight">
-                <Card link="https://play.google.com/store/apps/details?id=com.versatileproductions.hm" title="Run For Your Life" description="Run For Your Life or Die. Hey, the name says it all. This is an endless runner made in Unity." background="https://res.cloudinary.com/dz09rnbhe/image/upload/v1515198644/run-for-your-life_fvsmyl.jpg" />
+                <Card link="https://play.google.com/store/apps/details?id=com.versatileproductions.hm" title="Run For Your Life" description="Run For Your Life or Die. Hey, the name says it all. This is an endless runner made in Unity." background="https://res.cloudinary.com/dz09rnbhe/image/upload/w_800/v1515198644/run-for-your-life_fvsmyl.jpg" />
             </div>
 
             
             <div className="nine">
-                <Card link="https://play.google.com/store/apps/details?id=com.SquirrelsCantFightUpsideDown.MyLostPyramid" title="My Lost Pyramid" description="A musical tap game made in Unity." background="https://res.cloudinary.com/dz09rnbhe/image/upload/v1515068465/my-lost-pyramid_cfguxg.jpg" />
+                <Card link="https://play.google.com/store/apps/details?id=com.SquirrelsCantFightUpsideDown.MyLostPyramid" title="My Lost Pyramid" description="A musical tap game made in Unity." background="https://res.cloudinary.com/dz09rnbhe/image/upload/w_800/v1515068465/my-lost-pyramid_cfguxg.jpg" />
             </div>
 
         </div>
@@ -63,15 +63,15 @@ const Portfolio = () =>
         <div className="second">
 
             <div className="three">
-                <Card link="https://play.google.com/store/apps/details?id=com.harrisonmcguire.segify" title="Segify" description="Android app highlighting Sega subreddits." background="https://res.cloudinary.com/dz09rnbhe/image/upload/v1515069915/segifycard_l19wgn.png" />
+                <Card link="https://play.google.com/store/apps/details?id=com.harrisonmcguire.segify" title="Segify" description="Android app highlighting Sega subreddits." background="https://res.cloudinary.com/dz09rnbhe/image/upload/w_800/v1515069915/segifycard_l19wgn.png" />
             </div>
 
             <div className="four">
-                <Card  link="https://itunes.apple.com/us/book/miami-and-me/id979353607?ls=1&mt=11" title="Miami and Me" description="Ebook I made with other members of the Starters Mob club at while at the University of Miami." background="https://res.cloudinary.com/dz09rnbhe/image/upload/v1515069915/miamiandme_amtqgk.png" />
+                <Card  link="https://itunes.apple.com/us/book/miami-and-me/id979353607?ls=1&mt=11" title="Miami and Me" description="Ebook I made with other members of the Starters Mob club at while at the University of Miami." background="https://res.cloudinary.com/dz09rnbhe/image/upload/w_800/v1515069915/miamiandme_amtqgk.png" />
             </div>
 
             <div className="five">
-                <Card  link="http://harrison1.github.io/personalwebsite/" title="Old Personal Site" description="Old personal website. It's fun to look into the past sometimes." background="https://res.cloudinary.com/dz09rnbhe/image/upload/v1515069915/personal-website_vjjebj.png" />
+                <Card  link="http://harrison1.github.io/personalwebsite/" title="Old Personal Site" description="Old personal website. It's fun to look into the past sometimes." background="https://res.cloudinary.com/dz09rnbhe/image/upload/w_800/v1515069915/personal-website_vjjebj.png" />
             </div>
 
         </div>

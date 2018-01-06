@@ -46,7 +46,7 @@ const Education = () =>
             }
             .one {
                 grid-area: one;
-                background-image: url(https://res.cloudinary.com/dz09rnbhe/image/upload/v1515198644/santa-clara-university_bzsrsx.jpg);
+                background-image: url(https://res.cloudinary.com/dz09rnbhe/image/upload/w_1000/v1515198644/santa-clara-university_bzsrsx.jpg);
                 background-position: 50% 50%;
                 background-repeat: no-repeat;
                 background-size: 244%;
@@ -59,7 +59,7 @@ const Education = () =>
             }
             .two {
                 grid-area: two;
-                background-image: url(https://res.cloudinary.com/dz09rnbhe/image/upload/v1515198644/university-of-miami_rtjh3i.jpg);
+                background-image: url(https://res.cloudinary.com/dz09rnbhe/image/upload/w_1000/v1515198644/university-of-miami_rtjh3i.jpg);
                 background-position: 50% 50%;
                 background-repeat: no-repeat;
                 background-size: 244%;
