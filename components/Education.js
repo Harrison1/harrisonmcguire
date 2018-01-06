@@ -8,7 +8,7 @@ const Education = () =>
             <a href="https://www.scu.edu/">
                 <div className="one">
                     <div className="santa-clara">
-                        <img src="https://res.cloudinary.com/dz09rnbhe/image/upload/v1515197852/sc-broncos-logo_zadxpy.png" className="sc" />
+                        <img src="https://res.cloudinary.com/dz09rnbhe/image/upload/v1515204067/sc-broncos-logo_nrxuvy.png" className="sc" />
                         <h3>Santa Clara University</h3>
                         <p>BS Finance | 2006 - 2010</p>
                     </div>
@@ -17,7 +17,7 @@ const Education = () =>
             <a href="https://welcome.miami.edu/">
                 <div className="two">
                     <div className="miami">
-                        <img src="https://res.cloudinary.com/dz09rnbhe/image/upload/v1515197851/miami-hurricanse-logo_noqexy.png" className="mi" />
+                        <img src="https://res.cloudinary.com/dz09rnbhe/image/upload/v1515204067/miami-hurricanse-logo_x6fdir.png" className="mi" />
                         <h3>University of Miami</h3>
                         <p>MBA | 2013 - 2015</p>
                     </div>

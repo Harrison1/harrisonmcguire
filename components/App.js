@@ -10,7 +10,6 @@ import Contact from './Contact'
 
 const App = () =>
     <div>
-        <ShowcaseVideo />
         <Headline name="Harrison McGuire" tagline="Web Developer | Game Developer" />
         <Welcome />
         <Intro />
