@@ -6,7 +6,7 @@ const Headline = ({ name, tagline }) =>
         div {
             align-content: center;
             align-items: center;
-            background: rgba(1, 186, 212, 0.7);
+            background: rgba(1, 186, 212, 1);
             display: flex;
             height: 75vh
             flex-wrap: wrap;
@@ -33,6 +33,9 @@ const Headline = ({ name, tagline }) =>
             width: 100%;
         }
         @media (min-width: 800px) {
+            div {
+                background: rgba(1, 186, 212, 0.7);
+            }
             h1 {
                 font-size: 6rem;
                 line-height: 5rem;
