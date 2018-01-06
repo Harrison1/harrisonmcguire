@@ -13,6 +13,8 @@ const Meta = () =>
             <link rel="manifest" href='static/favicons/manifest.json' />
             <link rel="mask-icon" href='static/favicons/safari-pinned-tab.svg' color="#5bbad5" />
             <meta name="theme-color" content="#00bcd4" />
+            <script async src="https://www.googletagmanager.com/gtag/js?id=UA-73742203-1"></script>
+            <script dangerouslySetInnerHTML={{__html: `window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}gtag('js', new Date());gtag('config', 'UA-73742203-1');`}} />
         </Head>
         <style jsx global>{`
             *,

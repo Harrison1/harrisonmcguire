@@ -3,8 +3,8 @@ import React, { Component } from 'react';
 class Card extends Component {
 
   constructor(props) {
-    super(props);
-    this.cardImageHD = null;
+    super(props)
+    this.cardImageHD = null
   }
 
   componentDidMount() {
@@ -18,10 +18,10 @@ class Card extends Component {
         'style',
         `background-image: url('${this.props.srcLoaded}')`
       );
-      this.cardImageHD.classList.add('card-image-fade-in');
+      this.cardImageHD.classList.add('card-image-fade-in')
     }
 
-  };
+  }
 
   render() {
     return (
