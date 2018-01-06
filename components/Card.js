@@ -3,7 +3,7 @@ const Card = ({ link, title, description, background }) =>
         <a href={ link }>
             <div className="card">
                 <div className="info">
-                    <h3 className="title">{ title }</h3>
+                    <h3>{ title }</h3>
                     <p className="description">{ description }</p>
                 </div>
             </div>
@@ -17,11 +17,12 @@ const Card = ({ link, title, description, background }) =>
                 color: #1f1f1f;
             }
             h3 {
-                margin-bottom: 0.5em;
+                color: rgba(0, 0, 0, 0.87);
+                font-size: 3rem
                 font-weight: inherit;
                 line-height: 1.2;
-                color: #1c5b72;
-                font-size: 2.618em
+                margin: 0;
+                padding: 2.5rem 2rem;
             }
             .card {
                 border-radius: 5px;
@@ -50,13 +51,6 @@ const Card = ({ link, title, description, background }) =>
             .card:hover .info:before {
                 transform: translateY(50%) translateZ(0);
             }
-            .title {
-                margin: 0;
-                padding: 24px;
-                font-size: 40px;
-                line-height: 1;
-                color: rgba(0, 0, 0, 0.87);
-            } 
             .description {
                 margin: 0;
                 padding: 0 24px 24px;

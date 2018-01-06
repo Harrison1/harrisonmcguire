@@ -8,7 +8,7 @@ const Education = () =>
             <a href="https://www.scu.edu/">
                 <div className="one">
                     <div className="santa-clara">
-                        <img src="https://upload.wikimedia.org/wikipedia/en/8/82/SC_Broncos_logo.png" className="sc" />
+                        <img src="https://res.cloudinary.com/dz09rnbhe/image/upload/v1515197852/sc-broncos-logo_zadxpy.png" className="sc" />
                         <h3>Santa Clara University</h3>
                         <p>BS Finance | 2006 - 2010</p>
                     </div>
@@ -17,7 +17,7 @@ const Education = () =>
             <a href="https://welcome.miami.edu/">
                 <div className="two">
                     <div className="miami">
-                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Miami_Hurricanes_logo.svg/2000px-Miami_Hurricanes_logo.svg.png" className="mi" />
+                        <img src="https://res.cloudinary.com/dz09rnbhe/image/upload/v1515197851/miami-hurricanse-logo_noqexy.png" className="mi" />
                         <h3>University of Miami</h3>
                         <p>MBA | 2013 - 2015</p>
                     </div>
@@ -46,10 +46,10 @@ const Education = () =>
             }
             .one {
                 grid-area: one;
-                background-image: url(https://res.cloudinary.com/dz09rnbhe/image/upload/v1515156343/santa-clara-university_xssv6j.jpg);
+                background-image: url(https://res.cloudinary.com/dz09rnbhe/image/upload/v1515198644/santa-clara-university_bzsrsx.jpg);
                 background-position: 50% 50%;
                 background-repeat: no-repeat;
-                background-size: 180%;
+                background-size: 244%;
                 height: 400px;
                 transition: all 2s ease;
                 -moz-transition: all 2s ease;
@@ -59,10 +59,10 @@ const Education = () =>
             }
             .two {
                 grid-area: two;
-                background-image: url(https://res.cloudinary.com/dz09rnbhe/image/upload/v1515156343/university-of-miami_xhzgcm.jpg);
+                background-image: url(https://res.cloudinary.com/dz09rnbhe/image/upload/v1515198644/university-of-miami_rtjh3i.jpg);
                 background-position: 50% 50%;
                 background-repeat: no-repeat;
-                background-size: 180%;
+                background-size: 244%;
                 height: 400px;
                 transition: all 2s ease;
                 -moz-transition: all 2s ease;
@@ -120,6 +120,12 @@ const Education = () =>
                     grid-template-columns: 1fr 1fr;
                     grid-column-gap: 0;
                     grid-row-gap: 2rem;
+                }
+                .one, .two {
+                    background-size: 180%;
+                }
+                .one:hover, .two:hover {
+                    background-size: 200%;
                 }
             }
         `}</style>

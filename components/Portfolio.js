@@ -7,7 +7,7 @@ const Portfolio = () =>
         <div className="first">
 
             <div className="one">
-                <Card link="https://unrealcpp.com/" title="Unreal C++" description="GatsbyJS site dedicated to Unreal Engine 4 C++ tutorials" background="https://res.cloudinary.com/dz09rnbhe/image/upload/v1515063852/unrealcpp_j8skuw.png" />
+                <Card link="https://unrealcpp.com/" title="Unreal C++" description="GatsbyJS site dedicated to Unreal Engine 4 C++ tutorials." background="https://res.cloudinary.com/dz09rnbhe/image/upload/v1515063852/unrealcpp_j8skuw.png" />
             </div>
 
             <div className="two">
@@ -50,7 +50,7 @@ const Portfolio = () =>
         <div className="fourth">
         
             <div className="eight">
-                <Card link="https://play.google.com/store/apps/details?id=com.versatileproductions.hm" title="Run For Your Life" description="Run For Your Life or Die. Hey, the name says it all. This is an endless runner made in Unity." background="https://res.cloudinary.com/dz09rnbhe/image/upload/v1515068465/run-for-your-life_lhyzz4.jpg" />
+                <Card link="https://play.google.com/store/apps/details?id=com.versatileproductions.hm" title="Run For Your Life" description="Run For Your Life or Die. Hey, the name says it all. This is an endless runner made in Unity." background="https://res.cloudinary.com/dz09rnbhe/image/upload/v1515198644/run-for-your-life_fvsmyl.jpg" />
             </div>
 
             
