@@ -51,16 +51,15 @@ const Social = () =>
                 align-items: center;
                 grid-template-rows: auto;
                 grid-template-areas: 
-                    "one" 
-                    "two"
-                    "three"
-                    "four"
-                    "five";
+                    "one two"
+                    "three four"
+                    "five six";
                 margin: auto;
                 padding: 15px 0px;
                 max-width: 1200px;
                 width: 100%;
                 grid-row-gap: 2rem;
+                grid-column-gap: 2rem;
             }
             .subtitle {
                 max-width: 1200px;
@@ -91,9 +90,12 @@ const Social = () =>
                 grid-area: five;
             }
             .one, .two, .three, .four, .five {
+                align-items: center;
                 background: white;
-                padding: 15px;
                 border-radius: 20px;
+                display: grid;
+                height: 100%;
+                padding: 15px;
             }
             .subtitle {
                 max-width: 1200px;
@@ -104,6 +106,9 @@ const Social = () =>
                 color: #ffffff;
                 font-size:2rem;
                 text-align: center;
+            }
+            a {
+                height: 100%;
             }
             @media (min-width: 600px) {
                 .wrapper {
@@ -126,8 +131,6 @@ const Social = () =>
                 }
                 .one, .two, .three, .four, .five {
                     height: 210px;
-                    align-items: center;
-                    display: grid;
                 }
             }
         `}</style>

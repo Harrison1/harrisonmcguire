@@ -1,206 +1,62 @@
 const Retro = () =>
-    <div className="body">
-        <div className="lightning"></div>
-        <div className="smoke"></div>
-        <div className="static"></div>
-        <div className="mountain"></div>
-
-        <div id="floor">
-            <div className="floorInner">
-                <ul className="horizontal">
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                </ul>  
-                <ul className="vertical">
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                </ul>
-            </div>
-        </div>
+    <div className="retro">
+        <div className='grid-top'></div>
+        <div className='grid-bottom'></div>
 
         <style jsx>{`
-            #floor {
-                width:250%;
-                height:50vh;
-                position:relative;
-                overflow:hidden;  
-                -webkit-transform: perspective( 20px );
-                -moz-transform: perspective( 20px );
-                -ms-transform: perspective( 20px );
-                transform: perspective( 20px );
-                left:-75%;
-                padding-top:266px;
-            }
-
-            .floorInner {
-                width:100%;
-                height:50vh;  
-                -webkit-transform: perspective( 28px ) rotateY( 0deg ) rotatex( 3deg);
-                -moz-transform: perspective( 28px ) rotateY( 0deg ) rotatex( 3deg);
-                -ms-transform: perspective( 28px ) rotateY( 0deg ) rotatex( 3deg);
-                transform: perspective( 28px ) rotateY( 0deg ) rotatex( 3deg);
-            }
-
-            ul {
+            .retro {
+                background: #000;
                 position: absolute;
-                top:0px; 
-                left:0px;
-                list-style-type:none;
-                margin:0px;
-                padding:0px;
-                height:50vh;
-                width:100%;
-            }
-
-            ul li {
-                display: block;
-                height:10%;
-            }
-
-            ul li:last-child { box-shadow:none; }
-            ul.horizontal li  {box-shadow:inset 0px 2px 0px #d358bf; }
-
-            ul.vertical li {
-                float: left;
-                width:10%;
-                box-shadow:inset -2px 0px 0px #d358bf;
-                height:50vh;  
-                animation: slideleft 6s; 
-                animation-iteration-count: infinite;
-                animation-timing-function:linear;
-            }
-
-            @keyframes slideleft { 
-                0%   { 
-                    -webkit-transform: translate(0%); 
-                    -moz-transform: translate(0%); 
-                    -ms-transform: translate(0%); 
-                    transform: translate(0%);   
-                } 
-                100% { 
-                    -webkit-transform: translate(100%); 
-                    -moz-transform: translate(100%); 
-                    -ms-transform: translate(100%); 
-                    transform: translate(100%);
-                } 
-            }
-
-            .mountain:before{
-                content:' ';
-                background:transparent;
-                width:300px;
-                height:300px;
-                position:absolute;
-                top:-100px;
-                left:35%;
-                border-radius:50%;
-                z-index:-1;
-                box-shadow: inset 0px 0px 100px 10px rgba(243,107,245,0.3), 0px -29px 90px 0px #f36bf5;
-            }
-
-            .mountain{
-                height:180px;
-                padding-top:30px;
-                position:absolute;
-                top:28%;
-                left:-15%;
-                width:115%;
-                min-width:1932px;
-                background:url(https://s.cdpn.io/21555/mountain_2.svg);
-                background-repeat: repeat-x;  
-                animation: slowLeft 200s;
-                animation-iteration-count: infinite;
-                animation-timing-function:linear;
-            }
-
-            @keyframes slowLeft { 
-                0% { 
-                    background-position: 0px 0px;
-                } 
-                100% { 
-                    background-position:1932px 0px;
-                } 
-            }
-
-            .body {
                 height: 50vh;
-                background: rgb(41,55,143);
-                background: -moz-linear-gradient(-45deg,  rgb(41,55,143) 0%, rgb(61,50,102) 31%, rgb(92,30,79) 67%, rgb(20,3,39) 100%);
-                background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,rgb(41,55,143)), color-stop(31%,rgb(61,50,102)), color-stop(67%,rgb(92,30,79)), color-stop(100%,rgb(20,3,39)));
-                background: -webkit-linear-gradient(-45deg,  rgb(41,55,143) 0%,rgb(61,50,102) 31%,rgb(92,30,79) 67%,rgb(20,3,39) 100%);
-                background: -o-linear-gradient(-45deg,  rgb(41,55,143) 0%,rgb(61,50,102) 31%,rgb(92,30,79) 67%,rgb(20,3,39) 100%);
-                background: -ms-linear-gradient(-45deg,  rgb(41,55,143) 0%,rgb(61,50,102) 31%,rgb(92,30,79) 67%,rgb(20,3,39) 100%);
-                background: linear-gradient(135deg,  rgb(41,55,143) 0%,rgb(61,50,102) 31%,rgb(92,30,79) 67%,rgb(20,3,39) 100%);
-                filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#29378f', endColorstr='#140327',GradientType=1 );
+                top: 0;
+                right: 0;
+                bottom: 0;
+                left: 0;
+                -webkit-transform-style: preserve-3d;
+                        transform-style: preserve-3d;
+                -webkit-perspective: 1000px;
+                        perspective: 1000px;
+                overflow: hidden;
             }
 
-            .smoke {
+            .grid-top, .grid-bottom {
                 position: absolute;
                 top: 0;
+                right: 0;
+                bottom: 0;
                 left: 0;
-                width: 20%;
-                height: 20%;  
-                background-image: url(https://s.cdpn.io/21555/smoke.gif);
-                background-size: cover;
-                background-repeat: no-repeat;
-                background-position: 50% 50%;  
-                -webkit-filter:blur(3px) brightness(0.5);
-                -webkit-transform-origin: top left;
-                -webkit-transform: scale(5);
-                opacity:0.3;
+                margin: auto;
+                background-size: 50px 50px;
             }
 
-            .static{
-                z-index:-1;
-                position:absolute;
-                content:' ';
-                width:20%;
-                height:20%;
-                background-image: url(https://s.cdpn.io/21555/static.gif);
-                background-size: cover;
-                background-repeat: no-repeat;
-                background-position: 50% 50%;  
-                -webkit-filter: brightness(0.2);
-                -webkit-transform-origin: top left;
-                -webkit-transform: scale(5);
-                opacity:0.15;
+
+            .grid-top {
+                background-image: -webkit-gradient(linear, left bottom, left top, color-stop(19%, rgba(0, 0, 0, 0)), color-stop(24%, rgba(184, 1, 179, 0.5)), color-stop(25%, #b900b4), color-stop(26%, #b900b4), color-stop(27%, rgba(184, 1, 179, 0.5)), color-stop(32%, rgba(0, 0, 0, 0)), color-stop(69%, rgba(0, 0, 0, 0)), color-stop(74%, rgba(184, 1, 179, 0.5)), color-stop(75%, #b900b4), color-stop(76%, #b900b4), color-stop(77%, rgba(184, 1, 179, 0.5)), color-stop(82%, rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 0))), -webkit-gradient(linear, left top, right top, color-stop(19%, rgba(0, 0, 0, 0)), color-stop(24%, rgba(184, 1, 179, 0.5)), color-stop(25%, #b900b4), color-stop(26%, #b900b4), color-stop(27%, rgba(184, 1, 179, 0.5)), color-stop(32%, rgba(0, 0, 0, 0)), color-stop(69%, rgba(0, 0, 0, 0)), color-stop(74%, rgba(184, 1, 179, 0.5)), color-stop(75%, #b900b4), color-stop(76%, #b900b4), color-stop(77%, rgba(184, 1, 179, 0.5)), color-stop(82%, rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 0)));
+                background-image: linear-gradient(0deg, rgba(0, 0, 0, 0) 19%, rgba(184, 1, 179, 0.5) 24%, #b900b4 25%, #b900b4 26%, rgba(184, 1, 179, 0.5) 27%, rgba(0, 0, 0, 0) 32%, rgba(0, 0, 0, 0) 69%, rgba(184, 1, 179, 0.5) 74%, #b900b4 75%, #b900b4 76%, rgba(184, 1, 179, 0.5) 77%, rgba(0, 0, 0, 0) 82%, rgba(0, 0, 0, 0)), linear-gradient(90deg, rgba(0, 0, 0, 0) 19%, rgba(184, 1, 179, 0.5) 24%, #b900b4 25%, #b900b4 26%, rgba(184, 1, 179, 0.5) 27%, rgba(0, 0, 0, 0) 32%, rgba(0, 0, 0, 0) 69%, rgba(184, 1, 179, 0.5) 74%, #b900b4 75%, #b900b4 76%, rgba(184, 1, 179, 0.5) 77%, rgba(0, 0, 0, 0) 82%, rgba(0, 0, 0, 0));
+                -webkit-transform: rotateX(-80deg) scale(2);
+                        transform: rotateX(-80deg) scale(2);
+                -webkit-transform-origin: top center;
+                        transform-origin: top center;
+                -webkit-box-shadow: inset 0px -100px 100px 100px #000;
+                        box-shadow: inset 0px -100px 100px 100px #000;
+                animation: rad 1s reverse linear infinite;
             }
 
-            .lightning{
-                z-index:1;
-                position:absolute;
-                width:100%;
-                min-height:635px;
-                left:5%;
-                background:transparent url(https://s.cdpn.io/21555/lightning_1.png) no-repeat;
-                animation: flash 7s; 
-                animation-iteration-count: infinite;
-                animation-timing-function:linear;
+            .grid-bottom {
+                background-image: -webkit-gradient(linear, left bottom, left top, color-stop(19%, rgba(0, 0, 0, 0)), color-stop(24%, rgba(13, 229, 255, 0.5)), color-stop(25%, #0de5ff), color-stop(26%, #0de5ff), color-stop(27%, rgba(13, 229, 255, 0.5)), color-stop(32%, rgba(0, 0, 0, 0)), color-stop(69%, rgba(0, 0, 0, 0)), color-stop(74%, rgba(13, 229, 255, 0.5)), color-stop(75%, #0de5ff), color-stop(76%, #0de5ff), color-stop(77%, rgba(13, 229, 255, 0.5)), color-stop(82%, rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 0))), -webkit-gradient(linear, left top, right top, color-stop(19%, rgba(0, 0, 0, 0)), color-stop(24%, rgba(13, 229, 255, 0.5)), color-stop(25%, #0de5ff), color-stop(26%, #0de5ff), color-stop(27%, rgba(13, 229, 255, 0.5)), color-stop(32%, rgba(0, 0, 0, 0)), color-stop(69%, rgba(0, 0, 0, 0)), color-stop(74%, rgba(13, 229, 255, 0.5)), color-stop(75%, #0de5ff), color-stop(76%, #0de5ff), color-stop(77%, rgba(13, 229, 255, 0.5)), color-stop(82%, rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 0)));
+                background-image: linear-gradient(0deg, rgba(0, 0, 0, 0) 19%, rgba(13, 229, 255, 0.5) 24%, #0de5ff 25%, #0de5ff 26%, rgba(13, 229, 255, 0.5) 27%, rgba(0, 0, 0, 0) 32%, rgba(0, 0, 0, 0) 69%, rgba(13, 229, 255, 0.5) 74%, #0de5ff 75%, #0de5ff 76%, rgba(13, 229, 255, 0.5) 77%, rgba(0, 0, 0, 0) 82%, rgba(0, 0, 0, 0)), linear-gradient(90deg, rgba(0, 0, 0, 0) 19%, rgba(13, 229, 255, 0.5) 24%, #0de5ff 25%, #0de5ff 26%, rgba(13, 229, 255, 0.5) 27%, rgba(0, 0, 0, 0) 32%, rgba(0, 0, 0, 0) 69%, rgba(13, 229, 255, 0.5) 74%, #0de5ff 75%, #0de5ff 76%, rgba(13, 229, 255, 0.5) 77%, rgba(0, 0, 0, 0) 82%, rgba(0, 0, 0, 0));
+                -webkit-transform: rotateX(80deg) scale(2);
+                        transform: rotateX(80deg) scale(2);
+                -webkit-transform-origin: bottom center;
+                        transform-origin: bottom center;
+                -webkit-box-shadow: inset 0px 100px 100px 100px #000;
+                        box-shadow: inset 0px 100px 100px 100px #000;
+                -webkit-animation: rad 1s linear infinite;
+                        animation: rad 1s linear infinite;
             }
 
-            @keyframes flash { 
-                0% { opacity:0.0;} 
-                2% { opacity:1.0;}   
-                3% { opacity:0.5;} 
-                4% { opacity:0.2;} 
-                10% { opacity:0.0;} 
-                100% { opacity:0.0;}
+            @keyframes rad { 
+                100% { background-position:0px 50px;}
             }
         `}
         </style>

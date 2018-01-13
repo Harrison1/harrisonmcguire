@@ -1,4 +1,4 @@
-const Headline = ({ name, tagline }) =>
+const HeadlineRetro = ({ name, tagline }) =>
     <div className="hbg-container">
         <div className="hbg">
             <h1>{ name }</h1>
@@ -6,6 +6,7 @@ const Headline = ({ name, tagline }) =>
         </div>
         <style jsx>{`
             .hbg-container {
+                background: transparent;
                 align-content: center;
                 align-items: center;
                 display: flex;
@@ -14,23 +15,6 @@ const Headline = ({ name, tagline }) =>
                 justify-content: center;
                 position: relative;
                 z-index: 10;
-                background: linear-gradient(253deg, #639, #1797d2, #01bad4, #000);
-                background-size: 300% 300%;
-                -webkit-animation: Background 25s ease infinite;
-                -moz-animation: Background 25s ease infinite;
-                animation: Background 25s ease infinite;
-            }
-
-            @keyframes Background {
-                0% {
-                background-position: 0% 50%;
-                }
-                50% {
-                background-position: 100% 50%;
-                }
-                100% {
-                background-position: 0% 50%;
-                }
             }
 
             .hbg {
@@ -77,4 +61,4 @@ const Headline = ({ name, tagline }) =>
         `}</style>
     </div>
 
-export default Headline
+export default HeadlineRetro

@@ -264,9 +264,9 @@ const Skills = () =>
                 align-items: center;
                 grid-template-rows: auto;
                 grid-template-areas: 
-                    "one" 
-                    "two";
+                    "one two";
                 grid-row-gap: 2rem;
+                grid-column-gap: 2rem;
                 margin: auto;
                 padding: 1.5rem 3rem;
                 max-width: 1200px;
@@ -278,11 +278,10 @@ const Skills = () =>
                 align-items: center;
                 grid-template-rows: auto;
                 grid-template-areas: 
-                    "one" 
-                    "two"
-                    "three"
-                    "four";
+                    "one two"
+                    "three four";
                 grid-row-gap: 2rem;
+                grid-column-gap: 2rem;
                 margin: auto;
                 padding: 1.5rem 3rem;
                 max-width: 1200px;

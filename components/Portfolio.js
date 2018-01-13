@@ -103,6 +103,7 @@ const Portfolio = () =>
                 margin: auto;
                 width: 100%;
                 padding: 0px;
+                margin-bottom: 2rem;
             }
             .one {
                 grid-area: one;
@@ -118,7 +119,7 @@ const Portfolio = () =>
                     grid-template-areas:
                         "one two three";
                     grid-template-columns: 1fr 1fr 1fr;
-
+                    margin-bottom: 0;
                 }
             }
         `}</style>
