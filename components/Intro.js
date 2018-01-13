@@ -13,7 +13,7 @@ const Intro = () =>
         <div className="wrapper">
 
             <div className="one">
-                <img src="https://res.cloudinary.com/dz09rnbhe/image/upload/w_800/v1515075026/harrison-mcguire_qq3ixp.jpg" alt="Harrison McGuire"/>
+                <img src="https://res.cloudinary.com/dz09rnbhe/image/upload/w_800/v1515867879/harrison-mcguire_nud24f.jpg" alt="Harrison McGuire"/>
                 <h3>Hello Galaxy</h3>
                 <p>Hi, I'm Harrison McGuire and I am a web and game developer. My mission is to enrich the user experience with attention to detail and beautiful design. I excel in making modern, performant apps. I dedicate most of my time to JavaScript and Unreal Engine 4.</p>
             </div>
