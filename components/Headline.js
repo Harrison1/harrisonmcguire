@@ -1,8 +1,14 @@
+import Typist from 'react-typist'
+
 const Headline = ({ name, tagline }) =>
     <div className="hbg-container">
         <div className="hbg">
-            <h1>{ name }</h1>
-            <h2>{ tagline }</h2>
+            <Typist cursor={{show: false}}>
+                <h1>{ name }</h1>
+            </Typist>
+            <Typist cursor={{show: false}}>
+                <h2>{ tagline }</h2>
+            </Typist>
         </div>
         <style jsx>{`
             .hbg-container {
@@ -34,7 +40,6 @@ const Headline = ({ name, tagline }) =>
             }
 
             .hbg {
-                background: url(https://res.cloudinary.com/dz09rnbhe/image/upload/v1515206115/bg-lines_vurdkp.png);
                 background-size: cover;
                 background-position: center;
                 width: 100%;
@@ -73,6 +78,10 @@ const Headline = ({ name, tagline }) =>
                     font-size: 6rem;
                     line-height: 5rem;
                 }
+
+                .hbg-container, .hbg {
+                    background: rgba(0, 188, 212, 0.3);
+                } 
             }
         `}</style>
     </div>

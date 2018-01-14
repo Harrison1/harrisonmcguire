@@ -18,7 +18,6 @@ const HeadlineRetro = ({ name, tagline }) =>
             }
 
             .hbg {
-                background: url(https://res.cloudinary.com/dz09rnbhe/image/upload/v1515206115/bg-lines_vurdkp.png);
                 background-size: cover;
                 background-position: center;
                 width: 100%;
