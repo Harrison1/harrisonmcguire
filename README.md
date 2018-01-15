@@ -2,4 +2,4 @@
 
 SSR site made with NextJS.
 
-![screenshot](https://res.cloudinary.com/dz09rnbhe/image/upload/v1515206983/harrison-mcguire-com-screenshot_n5gkms.png "screenshot")
+![screenshot](https://res.cloudinary.com/dz09rnbhe/image/upload/v1516015832/harrison-mcguire-screenshot_uy8hfd.png "screenshot")
