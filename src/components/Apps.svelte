@@ -112,5 +112,4 @@
   <li><a rel=prefetch href="https://harrison1.itch.io/"><Itchio /></a></li>
   <li><a rel=prefetch href="https://www.twitch.tv/harrisonmcguire"><Twitch /></a></li>
   <li><a rel=prefetch href="https://github.com/Harrison1"><GitHub /></a></li>
-  <!-- <li><a href="blog"><Terminal /></a></li> -->
 </ul>

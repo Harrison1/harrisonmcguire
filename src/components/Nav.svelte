@@ -159,21 +159,17 @@
 	<nav class:active={ display }>
 		{#if display}
 			<ul>
-				<li><a aria-current="{segment === undefined ? 'page' : undefined}" href="." on:click={ toggleDisplay }><Home /></a></li>
-				<li><a aria-current="{segment === 'about' ? 'page' : undefined}" href="about" on:click={ toggleDisplay }><User /></a></li>
-				<li><a aria-current="{segment === 'blog' ? 'page' : undefined}" href="blog" on:click={ toggleDisplay }><Terminal /></a></li>
-				<li><a aria-current="{segment === 'gallery' ? 'page' : undefined}" href="gallery" on:click={ toggleDisplay }><Image /></a></li>
-				<li><a aria-current="{segment === 'videos' ? 'page' : undefined}" href="videos" on:click={ toggleDisplay }><YouTube /></a></li>
-				<li><a aria-current="{segment === 'contact' ? 'page' : undefined}" href="contact" on:click={ toggleDisplay }><Mail /></a></li>
-				<li><a aria-current="{segment === 'gallery' ? 'page' : undefined}" href="gallery" on:click={ toggleDisplay }><Itchio /></a></li>
-				<li><a aria-current="{segment === 'videos' ? 'page' : undefined}" href="videos" on:click={ toggleDisplay }><YouTube /></a></li>
-				<li><a aria-current="{segment === 'contact' ? 'page' : undefined}" href="contact" on:click={ toggleDisplay }><Mail /></a></li>
-
-				<!-- for the blog link, we're using rel=prefetch so that Sapper prefetches
-						the blog data when we hover over the link or tap it on a touchscreen -->
-				<!-- <li><a rel=prefetch aria-current="{segment === 'blog' ? 'page' : undefined}" href="blog">blog</a></li> -->
+				<li><a aria-current="{segment === undefined ? 'page' : undefined}" href="."><Home /></a></li>
+				<li><a aria-current="{segment === 'about' ? 'page' : undefined}" href="about"><User /></a></li>
+				<li><a aria-current="{segment === 'blog' ? 'page' : undefined}" href="blog"><Terminal /></a></li>
+				<li><a aria-current="{segment === 'gallery' ? 'page' : undefined}" href="gallery"><Image /></a></li>
+				<li><a aria-current="{segment === 'videos' ? 'page' : undefined}" href="videos"><YouTube /></a></li>
+				<li><a aria-current="{segment === 'contact' ? 'page' : undefined}" href="contact"><Mail /></a></li>
+				<li><a aria-current="{segment === 'gallery' ? 'page' : undefined}" href="gallery"><Itchio /></a></li>
+				<li><a aria-current="{segment === 'videos' ? 'page' : undefined}" href="videos"><YouTube /></a></li>
+				<li><a aria-current="{segment === 'contact' ? 'page' : undefined}" href="contact"><Mail /></a></li>
 			</ul>
 		{/if}
-		<button class='menu' on:click={ w }></button>
+		<button class='menu' on:click={ w } type='button' name='navigation' aria-label='navigation'></button>
 	</nav>
 <!-- {/if} -->
