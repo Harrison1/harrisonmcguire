@@ -16,11 +16,14 @@ jobs:
       uses: actions/setup-node@v1
       with:
         node-version: '12.x'
+    - name: Install Dependencies 
     - run: npm install
+    - name: Build
     - run: npm run export
-    - name: Build and Deploy
+    - name: Deploy
       uses: JamesIves/github-pages-deploy-action@releases/v3
       with:
         ACCESS_TOKEN: ${{ secrets.ACTION_DEPLOYMENT }}
         BRANCH: gh-pages
         FOLDER: __sapper__/export/sapper
+        CLEAN: true
