@@ -1,0 +1,75 @@
+:root {
+	--blue: #00bcd4;
+	--pandora-blue: 	;
+	--dark-gray: #222529;
+	--spacer: 80px;
+	--spacer-m: 60px;
+	--bs-font-sans-serif: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  :root {
+    scroll-behavior: smooth;
+  }
+}
+
+html {
+	box-sizing: border-box;
+	overflow-y: auto;
+}
+
+body {
+	margin: 0;
+	font-family: var(--bs-font-sans-serif);
+	font-size: 14px;
+	line-height: 1.5;
+	color: #fff;
+	background: var(--dark-gray);
+	overflow: hidden;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin: 0 0 0.5em 0;
+	font-weight: 400;
+	line-height: 1.2;
+}
+
+h1 {
+	font-size: 2em;
+}
+
+a {
+	color: inherit;
+}
+
+code {
+	font-family: menlo, inconsolata, monospace;
+	font-size: calc(1em - 2px);
+	color: #555;
+	background-color: #f0f0f0;
+	padding: 0.2em 0.4em;
+	border-radius: 2px;
+}
+
+button {
+	background: none;
+	border: none;
+	cursor: pointer;
+}
+
+svg {
+	width: 100%;
+	height: 100%;
+}
+
+@media (min-width: 400px) {
+	body {
+		font-size: 16px;
+	}
+}
