@@ -1,5 +1,5 @@
 # Personal Website for [harrisonmcguire.com](https://harrisonmcguire.com/)
 
-SSR site made with NextJS.
+Personal site made with Svelte and Sapper.
 
-![screenshot](https://res.cloudinary.com/dz09rnbhe/image/upload/v1516015832/harrison-mcguire-screenshot_uy8hfd.png "screenshot")
+![screenshot](screenshot.png "screenshot")
