@@ -16,10 +16,10 @@ jobs:
       uses: actions/setup-node@v1
       with:
         node-version: '12.x'
-    - name: Install Dependencies 
-      run: npm install
-    - name: Build
-      run: npm run export
+    - name: Install and Build 🔧
+      run: |
+        npm install
+        npm run export
     - name: Deploy
       uses: JamesIves/github-pages-deploy-action@releases/v3
       with:
