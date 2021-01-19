@@ -1,5 +1,4 @@
 <script>
-  import { fade } from 'svelte/transition'
   import { displayNav } from '../store/index.js'
 
   export let segment
@@ -15,9 +14,8 @@
   import Twitch from './icons/Twitch.svelte'
   import GitHub from './icons/GitHub.svelte'
 
-
-  function toggle() {
-		displayNav.update(v => !v);
+  const toggle = () => {
+    displayNav.update(v => !v);
 	}
 </script>
 
@@ -47,10 +45,8 @@
     justify-content: space-around;
     margin: 0;
     grid-column-gap: 50px;
-    /* margin: 0 auto; */
     grid-row-gap: 50px;
     height: calc(100vh - 12px);
-    /* overflow: auto; */
     padding: 20px;
     overflow: auto;
     animation: fade-in 1s ease-in-out;
@@ -103,23 +99,18 @@
       align-content: flex-start;
     }
   }
-
-
-
-
-
 </style>
 
 <ul>
-  <li><a aria-current="{segment === undefined ? 'page' : undefined}" href="." on:click={ toggle }><Home /></a></li>
-  <li><a aria-current="{segment === 'about' ? 'page' : undefined}" href="about" on:click={ toggle }><User /></a></li>
-  <li><a aria-current="{segment === 'videos' ? 'page' : undefined}" href="videos" on:click={ toggle }><YouTubeF /></a></li>
-  <li><a aria-current="{segment === 'gallery' ? 'page' : undefined}" href="gallery" on:click={ toggle }><Image /></a></li>
-  <li><a aria-current="{segment === 'tech' ? 'page' : undefined}" href="tech" on:click={ toggle }><Terminal /></a></li>
-  <li><a aria-current="{segment === 'contact' ? 'page' : undefined}" href="contact" on:click={ toggle }><Mail /></a></li>
-  <li><a href="https://www.youtube.com/c/HarrisonMcGuire"><YouTube /></a></li>
-  <li><a href="https://harrison1.itch.io/"><Itchio /></a></li>
-  <li><a href="https://www.twitch.tv/harrisonmcguire"><Twitch /></a></li>
-  <li><a href="https://github.com/Harrison1"><GitHub /></a></li>
+  <li><a rel=prefetch aria-current="{segment === undefined ? 'page' : undefined}" href="." on:click={ toggle }><Home /></a></li>
+  <li><a rel=prefetch aria-current="{segment === 'about' ? 'page' : undefined}" href="about" on:click={ toggle }><User /></a></li>
+  <li><a rel=prefetch aria-current="{segment === 'videos' ? 'page' : undefined}" href="videos" on:click={ toggle }><YouTubeF /></a></li>
+  <li><a rel=prefetch aria-current="{segment === 'gallery' ? 'page' : undefined}" href="gallery" on:click={ toggle }><Image /></a></li>
+  <li><a rel=prefetch aria-current="{segment === 'tech' ? 'page' : undefined}" href="tech" on:click={ toggle }><Terminal /></a></li>
+  <li><a rel=prefetch aria-current="{segment === 'contact' ? 'page' : undefined}" href="contact" on:click={ toggle }><Mail /></a></li>
+  <li><a rel=prefetch href="https://www.youtube.com/c/HarrisonMcGuire"><YouTube /></a></li>
+  <li><a rel=prefetch href="https://harrison1.itch.io/"><Itchio /></a></li>
+  <li><a rel=prefetch href="https://www.twitch.tv/harrisonmcguire"><Twitch /></a></li>
+  <li><a rel=prefetch href="https://github.com/Harrison1"><GitHub /></a></li>
   <!-- <li><a href="blog"><Terminal /></a></li> -->
 </ul>

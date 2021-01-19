@@ -4,7 +4,6 @@
 
 <style>
   h1 {
-    /* font-weight: 700; */
     font-size: 34px;
     margin-bottom: 5px;
     padding: 20px 20px 0 20px;

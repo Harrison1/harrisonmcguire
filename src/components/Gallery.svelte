@@ -21,18 +21,8 @@
 </script>
 
 <style>
-  /* .email-link {
-    height: 100px;
-    display: grid;
-    grid-template-columns: 60px auto;
-    align-items: center;
-    grid-gap: 20px;
-    font-size: 26px;
-    margin: auto;
-    padding: 20px;
-  } */
-
   img {
+    display: block;
     width: 100%;
   }
 
@@ -52,35 +42,35 @@
 <article>
   <SectionTitle text='Gallery' />
   <div class='image-gallery'>
-    <img class='lazy' src='' data-src="/harrison_mcguire_1.jpg" alt="Harrison McGuire" />
-    <img class='lazy' src='' data-src="/harrison_mcguire_4.jpg" alt="Harrison McGuire" />
-    <img class='lazy' src='' data-src="/harrison_mcguire_22.jpg" alt="Harrison McGuire" />
-    <img class='lazy' src='' data-src="/harrison_mcguire_31.jpg" alt="Harrison McGuire" />
+    <a href='/harrison_mcguire_1.jpg'><img class='lazy' src='' data-src="/harrison_mcguire_1.jpg" alt="Harrison McGuire" /></a>
+    <a href='/harrison_mcguire_4.jpg'><img class='lazy' src='' data-src="/harrison_mcguire_4.jpg" alt="Harrison McGuire" /></a>
+    <a href='/harrison_mcguire_22.jpg'><img class='lazy' src='' data-src="/harrison_mcguire_22.jpg" alt="Harrison McGuire" /></a>
+    <a href='/harrison_mcguire_31.jpg'><img class='lazy' src='' data-src="/harrison_mcguire_31.jpg" alt="Harrison McGuire" /></a>
 
-    <img class='lazy' src='' data-src="/harrison_mcguire_6.jpg" alt="Harrison McGuire" />
-    <img class='lazy' src='' data-src="/harrison_mcguire_8.jpg" alt="Harrison McGuire" />
-    <img class='lazy' src='' data-src="/harrison_mcguire_2.jpg" alt="Harrison McGuire" />
-    <img class='lazy' src='' data-src="/harrison_mcguire_10.jpg" alt="Harrison McGuire" />
+    <a href='/harrison_mcguire_6.jpg'><img class='lazy' src='' data-src="/harrison_mcguire_6.jpg" alt="Harrison McGuire" /></a>
+    <a href='/harrison_mcguire_8.jpg'><img class='lazy' src='' data-src="/harrison_mcguire_8.jpg" alt="Harrison McGuire" /></a>
+    <a href='/harrison_mcguire_2.jpg'><img class='lazy' src='' data-src="/harrison_mcguire_2.jpg" alt="Harrison McGuire" /></a>
+    <a href='/harrison_mcguire_10.jpg'><img class='lazy' src='' data-src="/harrison_mcguire_10.jpg" alt="Harrison McGuire" /></a>
 
-    <img class='lazy' src='' data-src="/harrison_mcguire_11.jpg" alt="Harrison McGuire" />
-    <img class='lazy' src='' data-src="/harrison_mcguire_23.jpg" alt="Harrison McGuire" />
-    <img class='lazy' src='' data-src="/harrison_mcguire_24.jpg" alt="Harrison McGuire" />
-    <img class='lazy' src='' data-src="/harrison_mcguire_18.jpg" alt="Harrison McGuire" />
+    <a href='/harrison_mcguire_11.jpg'><img class='lazy' src='' data-src="/harrison_mcguire_11.jpg" alt="Harrison McGuire" /></a>
+    <a href='/harrison_mcguire_23.jpg'><img class='lazy' src='' data-src="/harrison_mcguire_23.jpg" alt="Harrison McGuire" /></a>
+    <a href='/harrison_mcguire_24.jpg'><img class='lazy' src='' data-src="/harrison_mcguire_24.jpg" alt="Harrison McGuire" /></a>
+    <a href='/harrison_mcguire_18.jpg'><img class='lazy' src='' data-src="/harrison_mcguire_18.jpg" alt="Harrison McGuire" /></a>
 
-    <img class='lazy' src='' data-src="/harrison_mcguire_13.jpg" alt="Harrison McGuire" />
-    <img class='lazy' src='' data-src="/harrison_mcguire_14.jpg" alt="Harrison McGuire" />
-    <img class='lazy' src='' data-src="/harrison_mcguire_15.jpg" alt="Harrison McGuire" />
-    <img class='lazy' src='' data-src="/harrison_mcguire_16.jpg" alt="Harrison McGuire" />
+    <a href='/harrison_mcguire_13.jpg'><img class='lazy' src='' data-src="/harrison_mcguire_13.jpg" alt="Harrison McGuire" /></a>
+    <a href='/harrison_mcguire_14.jpg'><img class='lazy' src='' data-src="/harrison_mcguire_14.jpg" alt="Harrison McGuire" /></a>
+    <a href='/harrison_mcguire_15.jpg'><img class='lazy' src='' data-src="/harrison_mcguire_15.jpg" alt="Harrison McGuire" /></a>
+    <a href='/harrison_mcguire_16.jpg'><img class='lazy' src='' data-src="/harrison_mcguire_16.jpg" alt="Harrison McGuire" /></a>
 
-    <img class='lazy' src='' data-src="/harrison_mcguire_26.jpg" alt="Harrison McGuire" />
-    <img class='lazy' src='' data-src="/harrison_mcguire_29.jpg" alt="Harrison McGuire" />
-    <img class='lazy' src='' data-src="/harrison_mcguire_25.jpg" alt="Harrison McGuire" />
-    <img class='lazy' src='' data-src="/harrison_mcguire_27.jpg" alt="Harrison McGuire" />
+    <a href='/harrison_mcguire_26.jpg'><img class='lazy' src='' data-src="/harrison_mcguire_26.jpg" alt="Harrison McGuire" /></a>
+    <a href='/harrison_mcguire_29.jpg'><img class='lazy' src='' data-src="/harrison_mcguire_29.jpg" alt="Harrison McGuire" /></a>
+    <a href='/harrison_mcguire_25.jpg'><img class='lazy' src='' data-src="/harrison_mcguire_25.jpg" alt="Harrison McGuire" /></a>
+    <a href='/harrison_mcguire_27.jpg'><img class='lazy' src='' data-src="/harrison_mcguire_27.jpg" alt="Harrison McGuire" /></a>
 
-    <img class='lazy' src='' data-src="/harrison_mcguire_7.jpg" alt="Harrison McGuire" />
-    <img class='lazy' src='' data-src="/harrison_mcguire_12.jpg" alt="Harrison McGuire" />
-    <img class='lazy' src='' data-src="/harrison_mcguire_30.jpg" alt="Harrison McGuire" />
-    <img class='lazy' src='' data-src="/harrison_mcguire_9.jpg" alt="Harrison McGuire" />
+    <a href='/harrison_mcguire_7.jpg'><img class='lazy' src='' data-src="/harrison_mcguire_7.jpg" alt="Harrison McGuire" /></a>
+    <a href='/harrison_mcguire_12.jpg'><img class='lazy' src='' data-src="/harrison_mcguire_12.jpg" alt="Harrison McGuire" /></a>
+    <a href='/harrison_mcguire_30.jpg'><img class='lazy' src='' data-src="/harrison_mcguire_30.jpg" alt="Harrison McGuire" /></a>
+    <a href='/harrison_mcguire_9.jpg'><img class='lazy' src='' data-src="/harrison_mcguire_9.jpg" alt="Harrison McGuire" /></a>
     
   </div>
 </article>

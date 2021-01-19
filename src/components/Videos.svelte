@@ -22,13 +22,12 @@
 
 <style>
   article {
-    /* margin: auto auto var(--spacer-m) auto; */
     max-width: 1440px;;
   }
 
   .video-wrapper {
     position: relative;
-    padding-bottom: 56.25%; /* 16:9 */
+    padding-bottom: 56.25%;
     height: 0;
     margin-bottom: 20px;
   }
@@ -80,19 +79,19 @@
   </div>
   <div class='container'>
     <div class='video-wrapper'>
-      <iframe class='lazy' width="560" height="315" data-src="https://www.youtube.com/embed/Nt4W1B8cKy8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <iframe class='lazy' width="560" height="315" data-src="https://www.youtube.com/embed/Nt4W1B8cKy8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen title="YouTube Video Unreal Tutorial Health Bar"></iframe>
     </div>
 
     <div class='video-wrapper'>
-      <iframe class='lazy' width="560" height="315" data-src="https://www.youtube.com/embed/sXNDeImnipU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <iframe class='lazy' width="560" height="315" data-src="https://www.youtube.com/embed/sXNDeImnipU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen title="YouTube Video Unreal Tutorial Pick Up and Rotate Object"></iframe>
     </div>
 
     <div class='video-wrapper'>
-      <iframe class='lazy' width="560" height="315" data-src="https://www.youtube.com/embed/KsvUYzrTwBw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <iframe class='lazy' width="560" height="315" data-src="https://www.youtube.com/embed/KsvUYzrTwBw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen title="YouTube Video Unreal Tutorial Using Doors with Timelines"></iframe>
     </div>
 
     <div class='video-wrapper'>
-      <iframe class='lazy' width="560" height="315" data-src="https://www.youtube.com/embed/MZd5Ch6xXEo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <iframe class='lazy' width="560" height="315" data-src="https://www.youtube.com/embed/MZd5Ch6xXEo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen title="YouTube Video Recycler Views Intro"></iframe>
     </div>
   </div>
 </article>

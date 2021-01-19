@@ -1,21 +1,15 @@
 <script>
-	import { setContext } from 'svelte'
-
-	export let segment
 	import Home from './icons/Home.svelte'
 	import User from './icons/User.svelte'
 	import Mail from './icons/Mail.svelte'
 	import Image from './icons/Image.svelte'
 	import Terminal from './icons/Terminal.svelte'
-
   import YouTube from './icons/YouTube.svelte'
-  import YouTubeF from './icons/YouTubeF.svelte'
   import Itchio from './icons/Itchio.svelte'
-	import Twitch from './icons/Twitch.svelte'
-	import TwitchF from './icons/TwitchF.svelte'
-	import GitHub from './icons/GitHub.svelte'
-	
 	import { displayNav } from '../store/index.js'
+
+	export let segment
+
 
 	let display = false
 	
@@ -29,16 +23,6 @@
 
 <style>
 	nav {
-		/* font-weight: 300;
-		text-align: right;
-		margin: auto;
-		display: flex;
-    align-items: center;
-    justify-content: flex-end;
-		position: fixed;
-		right: 20px;
-		bottom: 20px;
-		height: 160px; */
 		overflow: auto;
 		z-index: 3;
 	}
@@ -74,17 +58,11 @@
 	}
 
 	.menu:hover {
-		/* background: #fff; */
 		border-color: var(--blue);
 	}
 
 
 	@media only screen and (min-width: 767px) {
-		/* nav {
-			height: 80px;
-			bottom: 0;
-		} */
-
 		ul {
 			grid-template-columns: repeat(6, 1fr);
 			grid-row-gap: 0;

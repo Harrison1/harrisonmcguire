@@ -1,10 +1,10 @@
 <script>
+	import { displayNav } from '../store/index.js'	
 	import Nav from '../components/Nav.svelte'
-	import HomeApps from '../components/HomeApps.svelte'
+	import Apps from '../components/Apps.svelte'
 
 	export let segment
 
-	import { displayNav } from '../store/index.js'
 
 	let display_value;
 
@@ -73,7 +73,7 @@
 			{#if !display_value}
 				<slot></slot>
 			{:else}
-				<HomeApps {segment} />
+				<Apps {segment} />
 			{/if}
 		</div>
 	</div>
