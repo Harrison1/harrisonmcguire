@@ -51,12 +51,6 @@ jobs:
       run: |
         npm install
         npm run export
-    # - name: Deploy
-    #   uses: peaceiris/actions-gh-pages@v3
-    #   with:
-    #     publish_dir: __sapper__/export
-    #     publish_branch: gh-pages
-    #     github_token: ${{ secrets.ACTION_DEPLOYMENT }}
     - name: Deploy 🚀
       uses: JamesIves/github-pages-deploy-action@3.7.1
       with:
