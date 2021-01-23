@@ -1,27 +1,15 @@
 <script>
-	import { onMount } from 'svelte'
-  import { goto } from '@sapper/app'
 	import { displayNav } from '../store/index.js'	
 	import Nav from '../components/Nav.svelte'
 	import Apps from '../components/Apps.svelte'
 
 	export let segment
 
-
 	let display_value;
 
 	const unsubscribe = displayNav.subscribe(value => {
 		display_value = value;
 	});
-
-	onMount(() => {
-		let path = localStorage.getItem('path');
-		if(path) {
-			localStorage.removeItem('path');
-			goto(path)
-		}
-	})
-
 </script>
 
 <style>

@@ -1,15 +1,8 @@
 <script>
-	import { onMount } from 'svelte'
-	export let status;
-	export let error;
+	export let status
+	export let error
 
 	const dev = process.env.NODE_ENV === 'development';
-
-	onMount(() => {
-		const path = window.location.pathname.slice(1)
-		localStorage.setItem('path', path)
-		window.location.href='../'
-	})
 </script>
 
 <style>
