@@ -1,15 +1,5 @@
 <script>
-	import { onMount } from 'svelte'
-  import { goto } from '@sapper/app'
 	import Hero from '../components/Hero.svelte'
-
-	onMount(() => {
-		let path = localStorage.getItem('path');
-		if(path) {
-			localStorage.removeItem('path');
-			goto(path)
-		}
-	})
 </script>
 
 <svelte:head>

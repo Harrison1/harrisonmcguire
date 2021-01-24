@@ -4,15 +4,13 @@
 
   onMount(() => {
     const path = window.location.pathname.slice(1)
-    localStorage.removeItem('path');
     switch (path) {
       case 'about':
       case 'contact':
       case 'gallery':
       case 'tech':
       case 'videos':
-        localStorage.setItem('path', path)
-        goto('/')
+        goto(path)
         break
     }
   })
