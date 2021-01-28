@@ -5,7 +5,7 @@
 <svelte:head>
 	<title>Harrison McGuire</title>
 	<meta charset="UTF-8">
-  <meta name="description" content="Harrison McGuire. This my personal site. Welcome to my site.">
+  <meta name="description" content="Harrison McGuire. Welcome to my personal site.">
 	<meta name="robots" content="noindex nofollow" />
 	<html lang="en" />
 </svelte:head>
