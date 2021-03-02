@@ -90,9 +90,9 @@
   </div>
 
   <div class='tech-container'>
-    <p>Most days I spend working in JavaScript. The verstalite language is a ton of fun of fun to make apps with and it scales all across platforms. I typically write server code in Node.js and have since started deploying all my server code to serverless environments. React is the framework I typically reach for while building apps on the front end. I love both GatsbyJS and Next.JS, they’re both wonderful tools that assist development. This site was made with Svelte and Sapper and the Svelte framework gets me extremely excited to start building bigger apps with Svelte.</p>
+    <p>Most days I spend working in JavaScript. The verstalite language is a ton of fun to make apps with and it scales across all platforms. I typically write server code in Node.js and have since started deploying all my server code to serverless environments. React is the framework I typically reach for while building apps on the front end. I love both GatsbyJS and Next.JS, they’re both wonderful tools that assist development. This site was made with Svelte and Sapper and the Svelte framework gets me extremely excited for the future.</p>
 
-    <p>For game development I always reach for Unreal. Out of the box Unreal provides an insane amount of content and lighting that can assist in building excellent games. Making games is still challenging and it still makes me want to throw my computer out of the window, but I mean I still love the medium.</p>
+    <p>For game development I always reach for Unreal. Out of the box Unreal provides an insane amount of content and it delivers great lighting that can make my art look its best. Making games is challenging and it makes me want to throw my computer out of the window sometimes, but I mean I still love the medium.</p>
   </div>
 </article>
 

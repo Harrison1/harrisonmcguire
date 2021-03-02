@@ -54,7 +54,7 @@
 
     <a href='/harrison_mcguire_11.jpg'><img class='lazy' src="/harrison_mcguire_placeholder_a.jpg" data-src="/harrison_mcguire_11.jpg" alt="Harrison McGuire" /></a>
     <a href='/harrison_mcguire_23.jpg'><img class='lazy' src="/harrison_mcguire_placeholder_a.jpg" data-src="/harrison_mcguire_23.jpg" alt="Harrison McGuire" /></a>
-    <a href='/harrison_mcguire_24.jpg'><img class='lazy' src="/harrison_mcguire_placeholder_a.jpg" data-src="/harrison_mcguire_24.jpg" alt="Harrison McGuire" /></a>
+    <a href='/harrison_mcguire_24.jpg'><img class='lazy' src="/harrison_mcguire_placeholder_a.jpg" data-src="/harrison_mcguire_32.jpg" alt="Harrison McGuire" /></a>
     <a href='/harrison_mcguire_18.jpg'><img class='lazy' src="/harrison_mcguire_placeholder_a.jpg" data-src="/harrison_mcguire_18.jpg" alt="Harrison McGuire" /></a>
 
     <a href='/harrison_mcguire_13.jpg'><img class='lazy' src="/harrison_mcguire_placeholder_b.jpg" data-src="/harrison_mcguire_13.jpg" alt="Harrison McGuire" /></a>
