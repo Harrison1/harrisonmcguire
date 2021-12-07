@@ -2,4 +2,8 @@
 
 Personal site made with Svelte and Sapper.
 
+```
+npm run dev
+```
+
 ![screenshot](screenshot.png "screenshot")
