@@ -47,19 +47,19 @@
     <a href='/harrison_mcguire_22.jpg'><img class='lazy' src="/harrison_mcguire_placeholder_a.jpg" data-src="/harrison_mcguire_22.jpg" alt="Harrison McGuire" /></a>
     <a href='/harrison_mcguire_31.jpg'><img class='lazy' src="/harrison_mcguire_placeholder_a.jpg" data-src="/harrison_mcguire_31.jpg" alt="Harrison McGuire" /></a>
 
-    <a href='/harrison_mcguire_6.jpg'><img class='lazy' src="/harrison_mcguire_placeholder_b.jpg" data-src="/harrison_mcguire_36.jpg" alt="Harrison McGuire" /></a>
-    <a href='/harrison_mcguire_8.jpg'><img class='lazy' src="/harrison_mcguire_placeholder_b.jpg" data-src="/harrison_mcguire_37.jpg" alt="Harrison McGuire" /></a>
-    <a href='/harrison_mcguire_2.jpg'><img class='lazy' src="/harrison_mcguire_placeholder_b.jpg" data-src="/harrison_mcguire_12.jpg" alt="Harrison McGuire" /></a>
-    <a href='/harrison_mcguire_10.jpg'><img class='lazy' src="/harrison_mcguire_placeholder_b.jpg" data-src="/harrison_mcguire_7.jpg" alt="Harrison McGuire" /></a>
+    <a href='/harrison_mcguire_36.jpg'><img class='lazy' src="/harrison_mcguire_placeholder_b.jpg" data-src="/harrison_mcguire_36.jpg" alt="Harrison McGuire" /></a>
+    <a href='/harrison_mcguire_37.jpg'><img class='lazy' src="/harrison_mcguire_placeholder_b.jpg" data-src="/harrison_mcguire_37.jpg" alt="Harrison McGuire" /></a>
+    <a href='/harrison_mcguire_12.jpg'><img class='lazy' src="/harrison_mcguire_placeholder_b.jpg" data-src="/harrison_mcguire_12.jpg" alt="Harrison McGuire" /></a>
+    <a href='/harrison_mcguire_7.jpg'><img class='lazy' src="/harrison_mcguire_placeholder_b.jpg" data-src="/harrison_mcguire_7.jpg" alt="Harrison McGuire" /></a>
 
     <a href='/harrison_mcguire_11.jpg'><img class='lazy' src="/harrison_mcguire_placeholder_a.jpg" data-src="/harrison_mcguire_11.jpg" alt="Harrison McGuire" /></a>
-    <a href='/harrison_mcguire_23.jpg'><img class='lazy' src="/harrison_mcguire_placeholder_a.jpg" data-src="/harrison_mcguire_35.jpg" alt="Harrison McGuire" /></a>
-    <a href='/harrison_mcguire_24.jpg'><img class='lazy' src="/harrison_mcguire_placeholder_a.jpg" data-src="/harrison_mcguire_33.jpg" alt="Harrison McGuire" /></a>
+    <a href='/harrison_mcguire_35.jpg'><img class='lazy' src="/harrison_mcguire_placeholder_a.jpg" data-src="/harrison_mcguire_35.jpg" alt="Harrison McGuire" /></a>
+    <a href='/harrison_mcguire_33.jpg'><img class='lazy' src="/harrison_mcguire_placeholder_a.jpg" data-src="/harrison_mcguire_33.jpg" alt="Harrison McGuire" /></a>
     <a href='/harrison_mcguire_18.jpg'><img class='lazy' src="/harrison_mcguire_placeholder_a.jpg" data-src="/harrison_mcguire_18.jpg" alt="Harrison McGuire" /></a>
 
-    <a href='/harrison_mcguire_13.jpg'><img class='lazy' src="/harrison_mcguire_placeholder_b.jpg" data-src="/harrison_mcguire_26.jpg" alt="Harrison McGuire" /></a>
-    <a href='/harrison_mcguire_14.jpg'><img class='lazy' src="/harrison_mcguire_placeholder_b.jpg" data-src="/harrison_mcguire_25.jpg" alt="Harrison McGuire" /></a>
-    <a href='/harrison_mcguire_15.jpg'><img class='lazy' src="/harrison_mcguire_placeholder_b.jpg" data-src="/harrison_mcguire_34.jpg" alt="Harrison McGuire" /></a>
-    <a href='/harrison_mcguire_16.jpg'><img class='lazy' src="/harrison_mcguire_placeholder_b.jpg" data-src="/harrison_mcguire_38.jpg" alt="Harrison McGuire" /></a>
+    <a href='/harrison_mcguire_26.jpg'><img class='lazy' src="/harrison_mcguire_placeholder_b.jpg" data-src="/harrison_mcguire_26.jpg" alt="Harrison McGuire" /></a>
+    <a href='/harrison_mcguire_25.jpg'><img class='lazy' src="/harrison_mcguire_placeholder_b.jpg" data-src="/harrison_mcguire_25.jpg" alt="Harrison McGuire" /></a>
+    <a href='/harrison_mcguire_34.jpg'><img class='lazy' src="/harrison_mcguire_placeholder_b.jpg" data-src="/harrison_mcguire_34.jpg" alt="Harrison McGuire" /></a>
+    <a href='/harrison_mcguire_38.jpg'><img class='lazy' src="/harrison_mcguire_placeholder_b.jpg" data-src="/harrison_mcguire_38.jpg" alt="Harrison McGuire" /></a>
   </div>
 </article>
