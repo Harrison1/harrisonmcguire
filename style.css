@@ -21,11 +21,11 @@ body {
   color: var(--main-fg-color);
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  background: linear-gradient(45deg, #ff005e, #fbff00);
 }
 
 .container {
   padding: 0.5rem;
-  background: linear-gradient(45deg, #ff005e, #fbff00);
   animation: neon-bg 4s linear infinite;
   -webkit-animation: neon-bg 4s linear infinite;
   -moz-animation: neon-bg 4s linear infinite;
@@ -48,8 +48,9 @@ ul {
 }
 
 .about-image-container {
-  margin-left: -1rem;
-  margin-right: -1rem;
+  margin-left: -1.5rem;
+  margin-right: -1.5rem;
+  margin-bottom: 2rem;
 }
 @media (min-width: 1024px) {
   .about-image-container {
@@ -74,12 +75,12 @@ ul {
   }
 }
 
-.about-time {
+.time {
   font-size: 0.875rem;
   font-weight: 300;
 }
 
-.about-social-grid {
+.social-grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-gap: 3rem;
@@ -88,7 +89,7 @@ ul {
   text-align: center;
 }
 @media (min-width: 768px) {
-  .about-social-grid {
+  .social-grid {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     margin: 3rem 0;
@@ -207,7 +208,7 @@ ul {
 
 .main-content {
   background: var(--main-bg-color);
-  border-radius: 0.5rem;
+  border-radius: 2rem;
   display: grid;
   min-height: calc(100dvh - 1rem);
 }
@@ -224,7 +225,7 @@ ul {
 
 .navigation {
   background: var(--main-bg-color);
-  border-radius: 0.5rem;
+  border-radius: 1rem;
   position: fixed;
   align-items: center;
   justify-content: center;
@@ -288,7 +289,8 @@ ul {
   transition: all 0.25s ease-in-out;
 }
 
-.nav-link:hover .nav-list-item-icon {
+.nav-link:hover .nav-list-item-icon,
+.nav-list-item-icon.active {
   box-shadow: 0 0 .1rem #fff,
               0 0 .1rem #fff,
               0 0 1rem #bc13fe,
@@ -297,20 +299,26 @@ ul {
               inset 0 0 .5rem #bc13fe; 
 }
 
-.nav-link:hover .nav-text {
+.nav-link:hover .nav-text,
+.nav-text.active {
   background: var(--main-fg-color);
   color: var(--main-bg-color);
 }
 
 .page-content {
   max-width: 768px;
-  padding: 0 1rem;
+  padding: 0 1.5rem;
   width: 100%;
 }
 
 .signature {
   height: auto;
-  width: 20rem;
+  width: 16rem;
+}
+@media (min-width: 768px) {
+  .signature {
+    width: 20rem;
+  }
 }
 
 .text-border {
@@ -409,16 +417,3 @@ ul {
   0% { opacity: 0; }
   100% { opacity: 1; }
 }
-
-/* @media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
-  }
-  a:hover {
-    color: #747bff;
-  }
-  button {
-    background-color: #f9f9f9;
-  }
-} */
