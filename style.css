@@ -146,7 +146,9 @@ ul {
   -ms-animation: fade-in 2s ease-in-out;
 }
 
-
+.gallery-grid {
+  margin-bottom: 2rem;
+}
 @media (min-width: 768px) {
   .gallery-grid {
     display: grid;
