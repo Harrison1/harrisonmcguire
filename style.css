@@ -225,7 +225,7 @@ ul {
 
 .navigation {
   background: var(--main-bg-color);
-  border-radius: 1rem;
+  border-radius: 2rem;
   position: fixed;
   align-items: center;
   justify-content: center;
