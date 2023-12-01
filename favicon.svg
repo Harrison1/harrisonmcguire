@@ -1,68 +1,15 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!-- Created with Inkscape (http://www.inkscape.org/) -->
-
-<svg
-   width="131.99994mm"
-   height="131.99998mm"
-   viewBox="0 0 131.99994 131.99998"
-   version="1.1"
-   id="svg1"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:svg="http://www.w3.org/2000/svg">
-  <sodipodi:namedview
-     id="namedview1"
-     pagecolor="#ffffff"
-     bordercolor="#000000"
-     borderopacity="0.25"
-     inkscape:showpageshadow="2"
-     inkscape:pageopacity="0.0"
-     inkscape:pagecheckerboard="0"
-     inkscape:deskcolor="#d1d1d1"
-     inkscape:document-units="mm" />
-  <defs
-     id="defs1">
-    <rect
-       x="182.23422"
-       y="724.62366"
-       width="349.37213"
-       height="312.70963"
-       id="rect3" />
-    <rect
-       x="182.23422"
-       y="724.62366"
-       width="349.37213"
-       height="312.70963"
-       id="rect3-5" />
+<svg width="131.99994mm" height="131.99998mm" viewBox="0 0 131.99994 131.99998" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+  <defs id="defs1">
+    <rect x="182.23422" y="724.62366" width="349.37213" height="312.70963" />
+    <rect x="182.23422" y="724.62366" width="349.37213" height="312.70963" />
   </defs>
-  <g
-     inkscape:label="Layer 1"
-     inkscape:groupmode="layer"
-     id="layer1"
-     transform="translate(-40.00002,-40.000022)">
-    <rect
-       style="fill:#030712;fill-opacity:1;stroke:#030712;stroke-width:19.9812;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-dashoffset:21.9;stroke-opacity:1;paint-order:stroke fill markers"
-       id="rect1"
-       width="112.01875"
-       height="112.01878"
-       x="49.99062"
-       y="49.99062" />
-    <text
-       xml:space="preserve"
-       transform="matrix(1.140788,0,0,1.1957902,-162.57563,-803.0802)"
-       id="text2"
-       style="font-size:74.6667px;font-family:AppleGothic;-inkscape-font-specification:AppleGothic;white-space:pre;shape-inside:url(#rect3);fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:75.5906;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-dashoffset:21.9;stroke-opacity:1;paint-order:stroke fill markers"><tspan
-         x="182.23438"
-         y="788.66694"
-         id="tspan2">H</tspan></text>
-    <text
-       xml:space="preserve"
-       transform="matrix(1.1460875,0,0,1.1957902,-118.7074,-803.0802)"
-       id="text2-1"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:74.6667px;font-family:AppleGothic;-inkscape-font-specification:AppleGothic;white-space:pre;shape-inside:url(#rect3-5);fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:75.5906;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-dashoffset:21.9;stroke-opacity:1;paint-order:stroke fill markers"><tspan
-         x="182.23438"
-         y="788.66694"
-         id="tspan3">M</tspan></text>
+  <g transform="translate(-40.00002,-40.000022)">
+    <rect style="fill:#111827;fill-opacity:1;stroke:#111827;stroke-width:19.9812;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-dashoffset:21.9;stroke-opacity:1;paint-order:stroke fill markers" width="112.01875" height="112.01878" x="49.99062" y="49.99062" />
+    <text xml:space="preserve" transform="matrix(1.140788,0,0,1.1957902,-162.57563,-803.0802)" id="text2" style="font-size:74.6667px;font-family:AppleGothic;-inkscape-font-specification:AppleGothic;white-space:pre;shape-inside:url(#rect3);fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:75.5906;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-dashoffset:21.9;stroke-opacity:1;paint-order:stroke fill markers">
+      <tspan x="182.23438" y="788.66694" id="tspan2">H</tspan>
+   </text>
+    <text xml:space="preserve" transform="matrix(1.1460875,0,0,1.1957902,-118.7074,-803.0802)" id="text2-1" style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:74.6667px;font-family:AppleGothic;-inkscape-font-specification:AppleGothic;white-space:pre;shape-inside:url(#rect3-5);fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:75.5906;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-dashoffset:21.9;stroke-opacity:1;paint-order:stroke fill markers">
+      <tspan x="182.23438" y="788.66694" id="tspan3">M</tspan>
+   </text>
   </g>
 </svg>
