@@ -373,28 +373,58 @@ ul {
 }
 
 @keyframes neon-bg {
-  from { backdrop-filter: hue-rotate(0deg); }
-  to { backdrop-filter: hue-rotate(360deg); }
+  from { 
+    backdrop-filter: hue-rotate(0deg); 
+    -webkit-backdrop-filter: hue-rotate(0deg);
+  }
+  to { 
+    backdrop-filter: hue-rotate(360deg); 
+    -webkit-backdrop-filter: hue-rotate(360deg);
+  }
 }
 
 @-webkit-keyframes neon-bg {
-  from { backdrop-filter: hue-rotate(0deg); }
-  to { backdrop-filter: hue-rotate(360deg); }
+  from { 
+    backdrop-filter: hue-rotate(0deg); 
+    -webkit-backdrop-filter: hue-rotate(0deg); 
+  }
+  to { 
+    backdrop-filter: hue-rotate(360deg);
+    -webkit-backdrop-filter: hue-rotate(360deg); 
+  }
 }
 
 @-moz-keyframes neon-bg {
-  from { backdrop-filter: hue-rotate(0deg); }
-  to { backdrop-filter: hue-rotate(360deg); }
+  from { 
+    backdrop-filter: hue-rotate(0deg); 
+    -webkit-backdrop-filter: hue-rotate(0deg); 
+  }
+  to { 
+    backdrop-filter: hue-rotate(360deg);
+    -webkit-backdrop-filter: hue-rotate(360deg); 
+  }
 }
 
 @-o-keyframes neon-bg {
-  from { backdrop-filter: hue-rotate(0deg); }
-  to { backdrop-filter: hue-rotate(360deg); }
+  from { 
+    backdrop-filter: hue-rotate(0deg); 
+    -webkit-backdrop-filter: hue-rotate(0deg); 
+  }
+  to { 
+    backdrop-filter: hue-rotate(360deg);
+    -webkit-backdrop-filter: hue-rotate(360deg); 
+  }
 }
 
 @-ms-keyframes neon-bg {
-  from { backdrop-filter: hue-rotate(0deg); }
-  to { backdrop-filter: hue-rotate(360deg); }
+  from { 
+    backdrop-filter: hue-rotate(0deg); 
+    -webkit-backdrop-filter: hue-rotate(0deg); 
+  }
+  to { 
+    backdrop-filter: hue-rotate(360deg);
+    -webkit-backdrop-filter: hue-rotate(360deg); 
+  }
 }
 
 @keyframes fade-in {
