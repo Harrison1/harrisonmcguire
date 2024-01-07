@@ -1,15 +1,23 @@
-<svg width="131.99994mm" height="131.99998mm" viewBox="0 0 131.99994 131.99998" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
-  <defs id="defs1">
-    <rect x="182.23422" y="724.62366" width="349.37213" height="312.70963" />
-    <rect x="182.23422" y="724.62366" width="349.37213" height="312.70963" />
-  </defs>
-  <g transform="translate(-40.00002,-40.000022)">
-    <rect style="fill:#111827;fill-opacity:1;stroke:#111827;stroke-width:19.9812;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-dashoffset:21.9;stroke-opacity:1;paint-order:stroke fill markers" width="112.01875" height="112.01878" x="49.99062" y="49.99062" />
-    <text xml:space="preserve" transform="matrix(1.140788,0,0,1.1957902,-162.57563,-803.0802)" id="text2" style="font-size:74.6667px;font-family:AppleGothic;-inkscape-font-specification:AppleGothic;white-space:pre;shape-inside:url(#rect3);fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:75.5906;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-dashoffset:21.9;stroke-opacity:1;paint-order:stroke fill markers">
-      <tspan x="182.23438" y="788.66694" id="tspan2">H</tspan>
-   </text>
-    <text xml:space="preserve" transform="matrix(1.1460875,0,0,1.1957902,-118.7074,-803.0802)" id="text2-1" style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:74.6667px;font-family:AppleGothic;-inkscape-font-specification:AppleGothic;white-space:pre;shape-inside:url(#rect3-5);fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:75.5906;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-dashoffset:21.9;stroke-opacity:1;paint-order:stroke fill markers">
-      <tspan x="182.23438" y="788.66694" id="tspan3">M</tspan>
-   </text>
-  </g>
+<svg viewBox="0 0 131.99994 131.99998" version="1.1" xmlns="http://www.w3.org/2000/svg">
+  <rect
+    style="fill:#030712;stroke:#030712;stroke-width:19.9812;stroke-linecap:round;stroke-linejoin:round;stroke-dashoffset:21.9;"
+    width="112.01875"
+    height="112.01878"
+    x="9.9905987"
+    y="9.9905968"
+  />
+  <text
+    xml:space="preserve"
+    transform="matrix(0.69803925,0,0,0.69803925,-22.698277,-13.166282)"
+    style="font-weight:500;font-size:144px;font-family:'Avenir Next Medium';letter-spacing:10.2485px;fill:#f9fafb;;stroke-width:0.377953;"
+  >
+    <tspan x="29.855469" y="161.13017">H</tspan>
+  </text>
+  <text
+    xml:space="preserve"
+    transform="matrix(0.69822171,0,0,0.69822171,-134.09588,-69.127078)"
+    style="font-weight:500;font-size:144px;font-family:'Avenir Next Medium';letter-spacing:-75px;fill:#f9fafb;;stroke-width:0.377953;"
+  >
+    <tspan x="255.3418" y="241.26689">M</tspan>
+  </text>
 </svg>

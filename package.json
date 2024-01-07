@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "vite"
   },
-  "devDependencies": {
-    "vite": "^5.0.10"
+  "dependencies": {
+    "vite": "^5.0.11"
   }
 }
